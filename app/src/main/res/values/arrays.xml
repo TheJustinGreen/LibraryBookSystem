@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets_array">
+        <item>Search by ISBN</item>
+        <item>Search by TITLE</item>
+        <item>Search by AUTHOR</item>
+    </string-array>
+</resources>

@@ -1,0 +1,171 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.justin.librarybooks.landing_pages.UserLandingPage"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <LinearLayout
+            android:id="@+id/editProfileLayout"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="280dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:text="Edit profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:textColor="#FFFFFF"
+                />
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                app:fabSize="mini"
+                app:srcCompat="@drawable/ic_mode_edit_white_24dp"
+                android:id="@+id/editProfileFab"
+                android:layout_marginTop="10dp"
+                app:backgroundTint="@color/colorAccent"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pastPapersLayout"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="220dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:text="Past Papers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#FFFFFF"
+                />
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                app:fabSize="mini"
+                app:srcCompat="@drawable/ic_school_white_24dp"
+                android:id="@+id/pastPapersFab"
+                android:layout_marginTop="10dp"
+                app:backgroundTint="@color/colorAccent"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/loansLayout"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="160dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:text="Loaned"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#FFFFFF"
+                />
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                app:fabSize="mini"
+                app:srcCompat="@drawable/ic_library_books_white_24dp"
+                android:id="@+id/loansFab"
+                android:layout_marginTop="10dp"
+                app:backgroundTint="@color/colorAccent"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/helpLayout"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="100dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:text="Help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#FFFFFF"
+                />
+
+            <android.support.design.widget.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                app:fabSize="mini"
+                app:srcCompat="@drawable/ic_help_outline_white_24dp"
+                android:id="@+id/helpFab"
+                android:layout_marginTop="10dp"
+                app:backgroundTint="@color/colorAccent"
+                />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/cross"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            >
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fabMainDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_add_white_24dp"
+                app:backgroundTint="@color/colorPrimaryDark"
+                />
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bookit</string>
+
+    <string name="Login">login</string>
+    <string name="Password">password</string>
+    <string name="searchable">searchable</string>
+    <string name="search">Search</string>
+
+</resources>
